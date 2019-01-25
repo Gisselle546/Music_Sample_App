@@ -1,0 +1,22 @@
+.controls{
+  height:150px;
+}
+
+
+.controls .iconn{
+  position:relative;
+  color: #fff;
+  top:2.2rem;
+  left:3.0rem;
+  height:100px;
+  display:none;
+  cursor:pointer;
+
+}
+
+.controls:hover .iconn{
+  left: 3.6rem;
+  display: block;
+
+
+}

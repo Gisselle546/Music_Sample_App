@@ -1,0 +1,90 @@
+.Search {
+
+	width: 70%;
+	position: absolute;
+	display: flex;
+	margin: 6px 200px;
+
+
+}
+
+input {
+		font-weight: 300;
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 1.2rem;
+		height: 37px;
+		width: 20%;
+		background: transparent;
+		color: #FFFFFF;
+		 border: 0;
+		border: 4px solid rgba(#cd122d, .1);
+		outline:none;
+		padding: 0 10px;
+		pointer-events: all;
+		transition: border .25s ease, width .125s ease .125s;
+}
+
+
+
+
+
+
+input:focus{
+			border: 2px solid #FFFFFF;
+			width: 45%;
+			border-radius: 37px;
+
+}
+input::placeholder {
+  color: #d3dbe8;
+  font-size: 1.1rem;
+
+
+}
+@media(min-width:75rem){
+	.Search {
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		position: absolute;
+		display: flex;
+		justify-content: center;
+
+	}
+
+	input {
+			font-weight: 300;
+			font-family: 'Titillium Web', sans-serif;
+			font-size: 1.2rem;
+			height: 37px;
+			width: 20%;
+			background: transparent;
+			color: #FFFFFF;
+			 border: 0;
+			border: 4px solid rgba(#cd122d, .1);
+			outline:none;
+			padding: 0 10px;
+			pointer-events: all;
+			transition: border .25s ease, width .125s ease .125s;
+	}
+
+
+
+
+
+
+	input:focus{
+				border: 2px solid #FFFFFF;
+				width: 45%;
+				border-radius: 37px;
+
+	}
+	input::placeholder {
+	  color: #d3dbe8;
+	  font-size: 1.1rem;
+
+
+	}
+
+
+}

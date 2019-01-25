@@ -1,0 +1,30 @@
+.Toolbar{
+  display:flex;
+  height:3rem;
+  background-image: linear-gradient(to right,rgb(66, 134, 244) 33%,rgb(26, 47, 81));
+  box-sizing: border-box;
+  align-items: flex-start;
+
+
+}
+
+.Toolbar__logo{
+  height:80%;
+  
+}
+
+@media(min-width:75rem){
+  .Toolbar{
+    display:flex;
+    height:9.5vh;
+    background-image: linear-gradient(to right,rgb(66, 134, 244) 33%,rgb(26, 47, 81));
+    box-sizing: border-box;
+    align-items: center;
+
+  }
+
+  .Toolbar__logo{
+    height:80%;
+    margin-bottom: 10px;
+  }
+}

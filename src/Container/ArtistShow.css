@@ -1,0 +1,20 @@
+
+.ArtistShow{
+  display:grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 250px);
+  margin-top: 1rem;
+  justify-content: space-around;
+}
+
+@media(max-width:55rem){
+  .ArtistShow{
+    display:block;
+    height:250px;
+    width:250px;
+    margin: 10px auto;
+
+
+
+  }
+}

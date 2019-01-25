@@ -1,0 +1,17 @@
+.image{
+    display:block;
+    width:100%;
+    min-height: 190px;
+    background-size: cover; /* <-- background size */
+
+}
+
+@media(min-width:75rem){
+
+  .image{
+
+      min-height: 190px;
+      background-size: cover; /* <-- background size */
+
+  }
+}

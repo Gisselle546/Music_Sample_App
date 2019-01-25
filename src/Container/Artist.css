@@ -1,0 +1,16 @@
+.container{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 1rem;
+  grid-gap: 5px;
+}
+
+@media(max-width:55rem){
+  .container{
+    display:block;
+    height:250px;
+    width:250px;
+    
+  }
+
+}

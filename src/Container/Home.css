@@ -1,0 +1,290 @@
+.background{
+  background-image:url('../assets/images/homepic.jpg');
+  height:40vh;
+  width:100%;
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.midder{
+  height:25rem;
+  margin: -26px auto;
+  background-image:linear-gradient(to right,rgb(155, 135, 135) 33%,rgb(26, 47, 81));
+
+}
+
+
+
+.big_heading{
+  font-family: 'Titillium Web', sans-serif;
+  color:#fff;
+  font-size: 1.3rem;
+
+
+}
+
+.btn{
+
+  cursor: pointer;
+  background-color: rgb(26, 47, 81);
+  display:inline-block;
+  padding:1.5rem;
+  border: 0;
+  color: #fefbef;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  margin-top: 1.5rem;
+  width:40%;
+  position:relative;
+  border-radius: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s;
+
+
+}
+
+.btn:hover{
+  transform:translateY(-3px);
+  box-shadow: 4px 9px rgba(0,0,0,0.25);
+}
+
+.btn:active{
+  transform:translateY(-1px);
+  box-shadow: 2px 3px rgba(0,0,0,0.05);
+}
+
+
+.btn::after{
+  content:"";
+  display:inline-block;
+  height:100%;
+  width:100%;
+  border:0;
+  border-radius: 100px;
+  background-color: rgb(26, 47, 81);
+  position:absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+  transition:all .4s;
+}
+
+.btn:hover::after{
+  transform:scaleX(1.4) scaleY(1.6);
+  opacity:0;
+
+}
+
+.small_heading{
+  color:#fff;
+  padding:10px;
+  font-size: 1.3rem;
+}
+
+
+.footer{
+  background-color: rgb(0, 0, 0);
+  margin: 0 auto;
+  height:3rem;
+  margin-top: -3rem;
+}
+.lists{
+  list-style-type: none;
+  text-align: center;
+
+}
+
+.items{
+  display:inline-block;
+  margin:0.2rem 0.8rem;
+  color:#fff;
+
+}
+
+.left{
+  margin-left: 2.1rem;
+  animation: goleft 2s;
+}
+
+.right{
+  animation: updown 2s;
+}
+
+.right img{
+height:6.7rem;
+margin-right: 30px;
+
+}
+
+.paragraph{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:0.6rem;
+}
+
+
+@keyframes goleft{
+    0%{
+      opacity:0;
+      transform: translateX(-60px);
+    }
+    80%{
+      transform:translateX(14px);
+    }
+
+    100%{
+      opacity:1;
+      transform:translate(0);
+    }
+}
+
+@keyframes updown{
+  0%{
+    opacity:0;
+    transform:translateY(-50px)
+  }
+  80%{
+    transform:translateY(10px);
+  }
+
+  100%{
+    opacity:1;
+    transform:translateY(0);
+  }
+
+}
+
+
+@media(min-width:75rem){
+  .background{
+    background-image:url('../assets/images/homepic.jpg');
+    height:95vh;
+    width:100%;
+    background-size: cover;
+    background-position: top;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .midder{
+    height:45rem;
+    margin: -29px auto;
+    background-image:linear-gradient(to right,rgb(155, 135, 135) 33%,rgb(26, 47, 81));
+
+  }
+
+
+
+  .big_heading{
+    font-family: 'Titillium Web', sans-serif;
+    color:#fff;
+
+
+  }
+
+  .btn{
+    margin-left:1.1rem;
+    cursor: pointer;
+    background-color: rgb(26, 47, 81);
+    display:inline-block;
+    padding:1.5rem;
+    border: 0;
+    color: #fefbef;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 1.5rem;
+    width:15%;
+    position:relative;
+    border-radius: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+
+
+  }
+
+  .btn:hover{
+    transform:translateY(-3px);
+    box-shadow: 4px 9px rgba(0,0,0,0.25);
+  }
+
+  .btn:active{
+    transform:translateY(-1px);
+    box-shadow: 2px 3px rgba(0,0,0,0.05);
+  }
+
+
+  .btn::after{
+    content:"";
+    display:inline-block;
+    height:100%;
+    width:100%;
+    border:0;
+    border-radius: 100px;
+    background-color: rgb(26, 47, 81);
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    transition:all .4s;
+  }
+
+  .btn:hover::after{
+    transform:scaleX(1.4) scaleY(1.6);
+    opacity:0;
+
+  }
+
+  .small_heading{
+    color:#fff;
+    padding:20px;
+    font-size: 1.8rem;
+  }
+
+
+  .footer{
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    height:3rem;
+    margin-top: -3rem;
+  }
+  .lists{
+    list-style-type: none;
+    text-align: center;
+
+  }
+
+  .items{
+    display:inline-block;
+    margin:0.2rem 0.8rem;
+    color:#fff;
+
+  }
+
+  .left{
+    margin-left: 2.1rem;
+    animation: goleft 2s;
+  }
+
+  .right{
+    animation: updown 2s;
+  }
+
+  .right img{
+  height:17rem;
+  margin-left: 2rem;
+  }
+
+  .paragraph{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+
+  }
+
+}

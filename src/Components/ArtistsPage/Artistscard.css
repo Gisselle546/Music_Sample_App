@@ -1,0 +1,61 @@
+.cards{
+  display:block;
+  transition: transform .2s;
+
+}
+
+
+.cards:hover{
+  transform: scale(1.05);
+  box-shadow: 4px 13px 20px #d3dbe8;
+}
+
+.artist{
+  cursor:pointer;
+}
+
+.name{
+  margin-left: 10px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.cards a {
+  text-decoration: none;
+  color:#5e6877;
+}
+
+@media(min-width:75rem){
+  .cards{
+    margin-left: 0.4rem;
+    padding:0.8rem;
+    grid-gap:3px;
+    transition: transform .2s;
+
+  }
+
+  .cards img{
+    margin-left: 0.6rem;
+  }
+
+
+  .cards:hover{
+    transform: scale(1.05);
+    box-shadow: 4px 13px 20px #d3dbe8;
+  }
+
+  .artist{
+    cursor:pointer;
+  }
+
+  .name{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .cards a {
+    text-decoration: none;
+    color:#5e6877;
+  }
+
+
+}
